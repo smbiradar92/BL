@@ -1,0 +1,27 @@
+read -p  " enter a random value" random
+salary=0
+isParttime=2
+isFultime=1
+isAbsent=0
+logHours=8
+perHourcost=100
+
+ if [ $random -eq $isFultime ]
+ then 
+  salary=$(($logHours*$perHourcost))
+  echo "Employee is full time"
+  echo "pay is: " $salary
+ elif [ $random -eq $isParttime ]
+ then
+  salary=$(($logHours*$perHourcost))
+  salary=$(($salary/2))
+  echo "Employee is parttime"
+  echo "pay is :" $salary 
+ elif [ $random -eq $isAbsent ]
+ then
+  echo "employee is sick"
+  echo "salary is:" $salary
+ 
+ else
+  echo "plz check input"
+ fi

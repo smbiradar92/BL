@@ -1,0 +1,18 @@
+Algorithm
+
+step 1:
+	List only Java files
+	Expected Result : add.java sub.java mul.java div.java
+step 2:
+
+	find a name of that java files
+	expected result :add sub mul div
+step 3:
+	 create a folder/directory with smae name as fikle name
+	expected result :	add/
+				sub/
+				mul/
+				div/
+
+ste4:
+	Copy a original file (Eg: add.java) & patse into a specific folder
